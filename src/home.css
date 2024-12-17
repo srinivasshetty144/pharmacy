@@ -1,0 +1,83 @@
+.location-container {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .profile-picture img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .destination-input p {
+    margin: 15px 0 5px;
+    font-size: 0.9em;
+    color: #c7c7cc;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    background: #2c2c2e;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  
+  .input-box .search-icon {
+    margin-right: 10px;
+    color: #8e8e93;
+  }
+  
+  .destination-field {
+    background: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  .quick-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 30%;
+    cursor: pointer;
+    font-size: 0.8em;
+  }
+  
+  .police {
+    background-color: #007aff;
+  }
+  
+  .hospital {
+    background-color: #ff3b30;
+  }
+  
+  .pharmacy {
+    background-color: #34c759;
+  }
+  
